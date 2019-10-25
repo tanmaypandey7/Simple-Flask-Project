@@ -3,5 +3,6 @@ __pycache__/
 
 # Distribution / packaging  
 env/
-.vscode/launch.json
-.vscode/settings.json
+# .vscode/launch.json
+.vscode/
+.idea/
