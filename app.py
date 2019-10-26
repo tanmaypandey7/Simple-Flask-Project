@@ -7,7 +7,7 @@ import os
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
 app = Flask(__name__)  # Load the model
-model = pickle.load(open(os.path.join(THIS_FOLDER, 'model/model1.pkl')))
+model = pickle.load(open(os.path.join(THIS_FOLDER, 'model/model1.pkl'),'rb'))
 
 
 @app.route('/')
